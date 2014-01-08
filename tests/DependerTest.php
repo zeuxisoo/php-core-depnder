@@ -77,8 +77,8 @@ class DependerTest extends PHPUnit_Framework_TestCase {
 
         $depender->del('text1');
 
-        $this->assertNull($depender->text1);
-        $this->assertNull($depender->get('text1'));
+        $this->assertFalse(property_exists($depender, 'text1'));
+        $this->assertFalse(property_exists($depender, 'text1'));
 
         $this->assertEquals('abcd', $depender->text2);
         $this->assertEquals('abcd', $depender->get('text2'));
