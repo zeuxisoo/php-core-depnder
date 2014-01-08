@@ -1,3 +1,7 @@
+### Status
+
+[![Build Status](https://travis-ci.org/zeuxisoo/php-core-depnder.png?branch=master)](https://travis-ci.org/zeuxisoo/php-core-depnder)
+
 ### Installation
 
 Install the composer
